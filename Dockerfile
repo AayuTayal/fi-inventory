@@ -5,11 +5,11 @@ FROM node:18
 WORKDIR /app
 
 # Copying only backend code to container
-COPY backend/package*.json ./backend/
-COPY backend/ ./backend/
+COPY Backend/package*.json ./Backend/
+COPY Backend/ ./Backend/
 
 # Setting working directory to backend
-WORKDIR /app/backend
+WORKDIR /app/Backend
 
 # Installing dependencies
 RUN npm install
