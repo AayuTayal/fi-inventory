@@ -1,8 +1,8 @@
-# FiMoney Inventory Management Backend
+# Inventory Management Backend
 
-This is the backend service for the FiMoney Inventory Management System. It handles user authentication, product management, and admin-specific operations.
+This is the backend service for the Inventory Management System. It handles user authentication, product management, and admin-specific operations.
 
-I (Aayush Tayal) have developed this backend using **Node.js**, **Express**, and **MongoDB** (via MongoDB Atlas). The API is documented using Swagger and has been tested using Postman.
+I (Aayush Tayal) have developed this backend using **Node.js**, **Express**, and **MongoDB** (via MongoDB Atlas). The API is documented using Swagger and has been tested using Postman and has been dockerized.
 
 ---
 
@@ -79,7 +79,6 @@ To import:
 
 - Made Admin-protected routes(users routes to see all the users which can be seen by aAdmin only and analytics routes to get the most added products which is also admin-protected)
 - I have written the frontend code but got unexpected errors and didn't able to debug it and complete due to time constraints, but the API is fully functional and ready to be connected with any frontend or CLI tool. You can ignore the frontend code now, though I will try to make it functional afterwards.
-- Also thought about Dockerizing the App but couldn't even able to start due to time constraint.
 
 ---
 
